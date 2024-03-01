@@ -69,4 +69,5 @@ position = Vector2(0, 34.4444)
 
 [node name="DamageAudio" type="AudioStreamPlayer2D" parent="."]
 
+[connection signal="health_changed" from="." to="." method="_on_health_changed"]
 [connection signal="area_entered" from="ExitDetector2D" to="." method="_on_ExitDetector2D_area_entered"]
